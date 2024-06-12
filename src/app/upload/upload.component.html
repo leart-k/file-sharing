@@ -1,0 +1,10 @@
+<!-- upload.component.html -->
+<div>
+  <h2>Upload File</h2>
+  <input type="file" (change)="onFileSelected($event)" />
+  <button (click)="onUpload()">Upload</button>
+  <div *ngIf="fileLink">
+    <p>File uploaded successfully. Share this link within your network:</p>
+    <a [href]="fileLink" target="_blank">{{ fileLink }}</a>
+  </div>
+</div>

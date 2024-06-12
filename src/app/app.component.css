@@ -1,0 +1,47 @@
+nav {
+    background-color: #f8f9fa;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+nav {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+  
